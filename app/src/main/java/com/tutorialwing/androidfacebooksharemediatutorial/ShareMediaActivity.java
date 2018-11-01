@@ -31,9 +31,6 @@ public class ShareMediaActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_share_media);
 
-        // Initialize facebook SDK.
-        FacebookSdk.sdkInitialize(getApplicationContext());
-
         // Create a callbackManager to handle the login responses.
         callbackManager = CallbackManager.Factory.create();
 

@@ -31,9 +31,6 @@ public class ShareMediaFragment extends Fragment {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		// Initialize facebook SDK.
-		FacebookSdk.sdkInitialize(getActivity().getApplicationContext());
-
 		// Create a callbackManager to handle the login responses.
 		callbackManager = CallbackManager.Factory.create();
 
