@@ -3,6 +3,12 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Button in Fragment"
+        android:layout_marginBottom="5dp"/>
+
     <com.facebook.share.widget.ShareButton
         android:id="@+id/fb_share_button"
         android:layout_width="wrap_content"

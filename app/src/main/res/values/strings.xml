@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">AndroidFacebookShareMediaTutorial</string>
-
+    <string name="app_name">FacebookShareMediaTutorial</string>
     <string name="facebook_app_id">840985389316327</string>
-
 </resources>

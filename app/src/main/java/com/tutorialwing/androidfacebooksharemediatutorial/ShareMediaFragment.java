@@ -69,9 +69,6 @@ public class ShareMediaFragment extends Fragment {
 //				.addMedium(shareVideo)
 				.build();
 
-		ShareDialog shareDialog = new ShareDialog(this);
-		shareDialog.show(content, ShareDialog.Mode.AUTOMATIC);
-
 		ShareButton shareButton = (ShareButton) view.findViewById(R.id.fb_share_button);
 		shareButton.setShareContent(content);
 	}
